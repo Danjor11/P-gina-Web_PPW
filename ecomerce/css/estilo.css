@@ -24,11 +24,15 @@ header {
 }
 
 footer ul {
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    list-style: "";
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer li {
+    font: bold 14px verdana;
+    padding: 10px;
+    display: inline-block;
 }
 
 nav {
@@ -42,20 +46,37 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 0px;
-    list-style: "";
+    list-style: none;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
+    color: black; 
+    text-align: center;
+    padding: 12px;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    border: 1px solid gray;
+    color: black;
+}
+
+nav a.active {
+    background-color: dodgerblue;
+    border: 1px solid gray;
+    color: white;
 }
 
 main {
-    flex: 3;
-    margin: auto;
+    flex: 1;
     background-color: #FAFAFA;
     padding: 20px;
+    border-radius: 8px;
 }
 
 .titulo {
@@ -64,15 +85,20 @@ main {
     color: black;
 }
 
+article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .precio {
     font-size: medium;
     color: #D47A55;
 }
 
 section {
-    margin: auto;
+    border-radius: 8px;
     background: #E3E8E1; 
-    padding: 20px   ;
+    padding: 20px;
 }
 
 aside {
@@ -80,20 +106,27 @@ aside {
     background: #e0f2f1;
     padding: 20px;
     border-radius: 8px;
+    text-align: center;
     color: #4A3B32;
 }
 
 .content {
     display: flex;
-    flex-direction: row;
-    gap:   0px;
+    flex-direction: row; 
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 1rem;
+    gap: 20px; 
 }
 
 @media (max-width: 768px) {
     .content {
-        flex-direction: column;
+        flex-direction: column; 
     }
-    nav {
-        flex-direction: column;
+    nav ul {
+        flex-direction: column; 
+    }
+    main {
+        padding: 0;
     }
 }

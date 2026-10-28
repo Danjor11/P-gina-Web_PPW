@@ -23,13 +23,21 @@
         <main>
             <section>
                 <article>
-                    
-                </article>
-                <article>
-                    
-                </article>
-                <article>
-                   
+                    <h2>Contáctanos</h2>
+                    <p>Déjanos tus datos y nos pondremos en contacto contigo.</p>
+                                
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" required><br><br>
+
+                        <label for="mensaje">Mensaje:</label><br>
+                        <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
+
+                        <input type="submit" value="Enviar">
+                    </form>
                 </article>
             </section>
         </main>

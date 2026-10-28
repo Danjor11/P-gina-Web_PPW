@@ -21,9 +21,29 @@
     </nav>
     <div class="content">
         <main>
-            <section>
+             <section>
                 <article>
-                    
+                    <h2>Nuestros Servicios</h2>
+                    <p>En Zandal no solo vendemos calzado, también te acompañamos 
+                    en cada paso con servicios pensados para tu comodidad.</p>
+                </article>
+
+                <article>
+                    <h3>Asesoría de talla y calce</h3>
+                    <p>Te ayudamos a encontrar la talla perfecta y el modelo que mejor 
+                    se adapte a tu forma de caminar, para que cada huella sea cómoda.</p>
+                </article>
+
+                <article>
+                    <h3>Personalización de calzado</h3>
+                    <p>Elige colores, cordones y detalles para que tus zapatos sean únicos, 
+                    tal como tú.</p>
+                </article>
+
+                <article>
+                    <h3>Mantenimiento y cuidado</h3>
+                    <p>Ofrecemos limpieza, reparación y cuidado de tus zapatos para que 
+                    duren más y se vean como nuevos.</p>
                 </article>
             </section>
         </main>
