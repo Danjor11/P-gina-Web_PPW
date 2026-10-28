@@ -14,9 +14,10 @@
     </header>
     <nav>
         <ul>
-            <li><a class="active" href="index.jsp">Inicio</a></li>
+            <li><a href="index.jsp">Inicio</a></li>
             <li><a href="productos.jsp">Productos</a></li>
             <li><a href="servicios.jsp">Servicios</a></li>
+            <li><a class="active" href="contacto.jsp">Contacto</a></li>
         </ul>
     </nav>
     <div class="content">
@@ -53,7 +54,7 @@
             <li><a href="https://www.instagram.com/">   Instagram</a> <a href="https://www.instagram.com/"><img src="icons/instagram.png" alt="instagram" style="width: 25px; height: 25px;"></a></li>
             <li><a href="https://www.tiktok.com/">   TikTok</a> <a href="https://www.tiktok.com/"><img src="icons/tiktok.png" alt="tiktok" style="width: 25px; height: 25px;"></a></li>
         </ul>
-        <p>&copy; 2026 Jordan Ricardo Montesino Sandoval 2026</p>
+        <p>&copy; 2026 Jordan Ricardo Montesinos Sandoval 2026</p>
     </footer>
 </body>
 

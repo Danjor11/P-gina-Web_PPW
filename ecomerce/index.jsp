@@ -50,7 +50,7 @@
             <li><a href="https://www.instagram.com/">   Instagram</a> <a href="https://www.instagram.com/"><img src="icons/instagram.png" alt="instagram" style="width: 25px; height: 25px;"></a></li>
             <li><a href="https://www.tiktok.com/">   TikTok</a> <a href="https://www.tiktok.com/"><img src="icons/tiktok.png" alt="tiktok" style="width: 25px; height: 25px;"></a></li>
         </ul>
-        <p>&copy; 2026 Jordan Ricardo Montesino Sandoval 2026</p>
+        <p>&copy; 2026 Jordan Ricardo Montesinos Sandoval 2026</p>
     </footer>
 </body>
 </html>
